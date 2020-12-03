@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoDigital | Login|SignUp Page</title>
+    <link rel="stylesheet" href="/stylesheets/main.css">
+</head>
+<body>
+   <article class="authHero">
+        <section class="hero-auth-page container">
+            <section class="image-section">
+                <div class="auth-img">
+                    <img src="/images/authPage.svg" alt="authpage illustration">
+                </div>
+            </section>
+            <section class="auth-section">
+                <section>
+                    <div class="button-box">
+                        <div id="btn"></div>
+                        <button class="login toggle-btn">Login</button>
+                        <button class="signup toggle-btn">SignUp</button>
+                    </div>
+                </section>
+                <section class="auth-box">
+                    <form action="" id="login" class="login auth-form">
+                        <input class="user-email" name="email" type="email" placeholder="Enter your email" required>
+                        <input type="password" name="password" placeholder="Enter your password" required>
+                        <button type="submit" name="submit" class="login-btn auth-btn">Login</button>
+                    </form>
+                    <form action="" id="signup" class="signup auth-form">
+                        <input class="user-email" name="email" type="email" placeholder="Enter your email" required>
+                        <input type="password" name="password" placeholder="Enter your password" required>
+                        <button type="submit" name="submit" class="signup-btn auth-btn">Login</button>
+                    </form>
+                </section>
+                
+            </section>
+        </section>
+   </article>
+
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+    <script src="/routes/login.js"></script>
+</body>
+</html>

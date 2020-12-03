@@ -1,0 +1,102 @@
+.authHero{
+    width: 100%;
+    height: 100vh;
+    background: #f7ff00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #db36a4, #f7ff00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #db36a4, #f7ff00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+
+
+   .hero-auth-page{
+    display:  flex;
+    justify-content: space-around;
+    align-items: center;
+   }
+
+
+   .auth-img{
+       
+      width: 700px;
+       img{
+           width: 100%;
+       }
+   }
+
+
+
+    .auth-section{
+        width: 500px;
+        height:600px;
+        margin: 5% auto;
+        position: relative;
+        background: #1c92d2;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to left, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to left, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        padding: 10px;
+
+       .button-box{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           
+
+        //    #btn{
+        //        top: 0;
+        //        left: 0;
+        //        position: absolute;
+        //        width: 200px;
+        //        height: 200px;
+        //        background: linear-gradient(to right, #ff105f,#ffad06);
+        //        border-right: 30px;
+        //        transition: 0.5s;
+        //    }
+       }
+
+        .toggle-btn{
+            padding: 10px 30px;
+            cursor: pointer;
+            background: white transparent;
+            border-radius: 27px;
+            width: 200px;
+            border: 0px;
+            outline: none;
+            position: relative;
+        }
+        .login{
+          border-top-right-radius: 0px;
+          border-bottom-right-radius: 0px;
+        }
+        .signup{
+            border-top-left-radius: 0px;
+            border-bottom-left-radius: 0px;
+        }
+     
+        
+
+         .auth-box{
+             .auth-form{
+                 top: 200px;
+                 position: absolute;
+                 width: 250px;
+                 transition: 0.5s;
+
+                 input{
+                     width: 100%;
+                     padding: 10px 0px;
+                     margin: 5px 0;
+                     border-top: 0;
+                     border-bottom: 1px solid #999;
+                     border-left: 0;
+                     border-right: 0;
+
+                     outline: none;
+                     background: transparent;
+
+                 }
+
+             }
+         }
+
+    }
+    
+}
