@@ -1,0 +1,23 @@
+header {
+  padding: 10px;
+  // background: hsl(201, 76%, 47%);
+  border-bottom: 0.5px solid white;
+  .brand {
+    width: 36px;
+  }
+
+  a {
+    color: white;
+    font-weight: 500;
+    display: block;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    text-transform: uppercase;
+  }
+  a:hover {
+    background-color: white;
+    color: hsl(201, 76%, 47%);
+    border-radius: 10px;
+    transition: 0.3s all ease-in;
+  }
+}
