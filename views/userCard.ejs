@@ -8,33 +8,33 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     </head>
     <body>
+
+
         <section class="card-section">
             <div class="user-card">
                 <div class="user-image-name">
                    <div class="user-image">
-                      <img class="user-card-img" src="/images/user.png" alt="user image">
+                    <img class="user-card-img" src="/images/user.png" alt="user image">
                    </div>
                    <div class="user-name">
-                      <h3 class="user-first-name">Johnson</h3>
-                      <h3 class="user-second-name">Cristoper</h3>
-                    </div>
+                     <h3 class="user-first-name"><%=card.name %></h3>
+                     </div>
                 </div>
                 <div class="user-contacts">
                     <div class="user-mobile">
                         <i class="fas fa-mobile"></i>
-                        <h2>14578822555</h2>
-                    </div>
+                        <h3><%= card.number %></h3>
+                     </div>
                     <div class="user-email">
                         <i class="fas fa-envelope"></i>
-                        <h2>name@gmail.com</h2>
-                    </div>
+                     </div>
                 </div>
                 <div class="user-profession-box">
                     <h2 class="user-profession">Student</h2>
                 </div>
                 <div class="user-address-box">
                     <i class="fas fa-address-card"></i>
-                    <address class="user-address">(619) 698-01813281 College Pl #314Lemon Grove, California(CA), 91945</address>
+                    <address class="user-address"><%= card.address%></address>
                 </div>
                 <div class="user-social-media-links">
                     <div class="user-facebook-link">
@@ -52,5 +52,6 @@
                 </div>
             </div>
         </section>
+    
     </body>
 </html>

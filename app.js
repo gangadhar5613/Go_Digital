@@ -32,7 +32,7 @@ app.use("/login", require("./routes/login"));
 app.use("/dashboard", require("./routes/dashboard"));
 app.use("/login", require("./routes/login"));
 app.use("/dashboard", require("./routes/dashboard"));
-app.use("/usercard", require("./routes/userCard"));
+//app.use("/usercard", require("./routes/userCard"));
 
 app.use("/user", require("./routes/user"));
 

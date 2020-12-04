@@ -6,18 +6,17 @@ var upload = multer({ dest: "uploads/" });
 // User Data To Make Card
 
 const Card = require("../models/cards");
-
 router.post("/", upload.single("avatar"), (req, res) => {
-  console.log(req.body);
-
   Card.create(req.body, (err, data) => {
     if (err) {
       console.log(err);
+    } else {
+      res.render("userCard", { card: data });
+      console.log(data);
     }
-
-    res.json(data);
   });
 });
+
 router.put("/:id", (req, res) => {
   Card.findByIdAndUpdate({ _id: id }, req.body, (err, card) => {
     res.render("updateSuccess");

@@ -1,6 +1,5 @@
 let mongoose = require("mongoose");
 let Schema = mongoose.Schema;
-
 // User Data
 
 let Card = mongoose.model(
@@ -20,10 +19,7 @@ let Card = mongoose.model(
       type: Buffer,
     },
     number: {
-      type: Number,
-      minlength: 10,
-      maxlength: 12,
-      require: true,
+      type: String,
     },
     address: {
       type: String,
