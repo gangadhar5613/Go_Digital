@@ -30,6 +30,7 @@ app.use("/", require("./routes/index"));
 app.use("/card", require("./routes/card"));
 app.use('/login', require('./routes/login'));
 app.use('/dashboard',require('./routes/dashboard'))
+app.use('/usercard',require('./routes/userCard'));
 
 app.use("/user", require("./routes/user"));
 
