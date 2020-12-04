@@ -31,6 +31,8 @@ app.use("/card", require("./routes/card"));
 app.use('/login', require('./routes/login'));
 app.use('/dashboard',require('./routes/dashboard'))
 
+app.use("/user", require("./routes/user"));
+
 //error page
 
 app.use((req, res, next) => {

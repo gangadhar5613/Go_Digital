@@ -1,5 +1,6 @@
 html {
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 h1 {
   font-size: 3rem;
@@ -14,4 +15,15 @@ h3 {
 }
 a {
   text-decoration: none;
+}
+.m-5 {
+  margin-top: 140px;
+}
+
+.pl {
+  padding-left: 20px;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
 }
