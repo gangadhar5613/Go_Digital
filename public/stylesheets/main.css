@@ -139,6 +139,7 @@ table {
 
 html {
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 h1 {
@@ -158,11 +159,11 @@ a {
 }
 
 .m-5 {
-  margin-top: 180px;
+  margin-top: 140px;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 .container {
@@ -181,8 +182,16 @@ body {
   width: 48%;
 }
 
+.col-80 {
+  width: 78%;
+}
+
+.col-20 {
+  width: 18%;
+}
+
 .col-30 {
-  width: 32%;
+  width: 30%;
 }
 
 .js-bt {
@@ -192,8 +201,9 @@ body {
 }
 
 header {
-  padding: 10px;
-  border-bottom: 0.5px solid white;
+  padding: 20px;
+  -webkit-box-shadow: 0 0 65px rgba(0, 0, 0, 0.09);
+          box-shadow: 0 0 65px rgba(0, 0, 0, 0.09);
 }
 
 header .brand {
@@ -232,16 +242,53 @@ header a:hover {
 
 .hero .hero-text {
   color: white;
-  margin-bottom: 30px;
+  line-height: 1.2;
+}
+
+.hero .hero-text .hero-title {
+  line-height: 2;
+  margin-bottom: 40px;
+}
+
+.hero .hero-text .hero-heading {
+  font-weight: 700;
 }
 
 .hero .hero-btn {
   background-color: white;
   padding: 15px;
-  border-radius: 10px;
+  border-radius: 30px;
   color: blue;
-  margin-top: 20px;
+  margin-top: 30px;
   text-transform: uppercase;
+}
+
+.hero .hero-img img {
+  width: 100%;
+  height: 100%;
+  margin-top: 66px;
+}
+
+.advantage {
+  margin-top: 66px;
+}
+
+.advantage h3 {
+  font-size: 40px;
+  margin-bottom: 66px;
+  text-align: center;
+}
+
+.advantage .col-30 {
+  padding: 20px;
+}
+
+.advantage .col-30 .feature-text {
+  line-height: 1.5;
+}
+
+.advantage .col-30 .feature-text .bold {
+  font-weight: 700;
 }
 
 .authHero {
