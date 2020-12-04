@@ -1,7 +1,7 @@
 
 const sign_in_btn = document.querySelector("#sign-in-btn");
 const sign_up_btn = document.querySelector("#sign-up-btn");
-const container = document.querySelector(".container");
+const container = document.querySelector(".main-container");
 
 sign_up_btn.addEventListener("click", () => {
   container.classList.add("sign-up-mode");
@@ -13,24 +13,24 @@ sign_in_btn.addEventListener("click", () => {
   console.log('hi')
 });
 
-const userEmail = document.getElementById('user_email');
-const userPassword = document.getElementById('user_password');
+// const userEmail = document.getElementById('user_email');
+// const userPassword = document.getElementById('user_password');
 
 
 
-const signUpBtn = document.querySelector('.signUp-btn');
-const loginBtn = document.querySelector('.loginBtn');
+// const signUpBtn = document.querySelector('.signUp-btn');
+// const loginBtn = document.querySelector('.loginBtn');
 
 
 
 
-function handleLogin(event){
-  event.preventDefault();
-  window.location.href = '/views/dashboard.ejs'
-}
+// function handleLogin(event){
+//   event.preventDefault();
+//   window.location.href = '/views/dashboard.ejs'
+// }
 
 
-loginBtn.addEventListener('submit',handleLogin);
+// loginBtn.addEventListener('submit',handleLogin);
 
 
 
