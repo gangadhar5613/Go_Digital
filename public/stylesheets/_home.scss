@@ -50,6 +50,10 @@
       line-height: 1.5;
       .bold {
         font-weight: 700;
+        opacity: 1;
+      }
+      p {
+        opacity: 0.6;
       }
     }
   }
@@ -71,7 +75,7 @@
 // Team
 
 .wrapper {
-  margin-top: 50px;
+  margin-top: 66px;
 }
 
 .wrapper h1 {
@@ -86,7 +90,7 @@
   width: auto;
   text-align: center;
   flex-wrap: wrap;
-  margin-top: 25px;
+  margin-top: 140px;
 }
 
 .team .team_member {
@@ -127,5 +131,5 @@
 .team .team_member .team_img img {
   width: 100px;
   height: 100px;
-  padding: 5px;
+  border-radius: 50%;
 }

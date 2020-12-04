@@ -162,6 +162,10 @@ a {
   margin-top: 140px;
 }
 
+.pl {
+  padding-left: 20px;
+}
+
 body {
   font-family: "Quicksand", sans-serif;
 }
@@ -289,6 +293,11 @@ header a:hover {
 
 .advantage .col-30 .feature-text .bold {
   font-weight: 700;
+  opacity: 1;
+}
+
+.advantage .col-30 .feature-text p {
+  opacity: 0.6;
 }
 
 .overview {
@@ -307,7 +316,7 @@ header a:hover {
 }
 
 .wrapper {
-  margin-top: 50px;
+  margin-top: 66px;
 }
 
 .wrapper h1 {
@@ -327,7 +336,7 @@ header a:hover {
   text-align: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-top: 25px;
+  margin-top: 140px;
 }
 
 .team .team_member {
@@ -369,7 +378,16 @@ header a:hover {
 .team .team_member .team_img img {
   width: 100px;
   height: 100px;
-  padding: 5px;
+  border-radius: 50%;
+}
+
+footer {
+  background: #fff;
+  padding: 25px 0;
+  text-align: center;
+  font-weight: 500;
+  -webkit-box-shadow: 0 0 65px rgba(0, 0, 0, 0.09);
+          box-shadow: 0 0 65px rgba(0, 0, 0, 0.09);
 }
 
 .authHero {
