@@ -8,8 +8,14 @@ var upload = multer({ dest: "uploads/" });
 const Card = require("../models/cards");
 
 router.post("/", upload.single("avatar"), (req, res) => {
+  console.log(req.body);
+
   Card.create(req.body, (err, data) => {
-    res.send(data);
+    if (err) {
+      console.log(err);
+    }
+
+    res.json(data);
   });
 });
 router.put("/:id", (req, res) => {

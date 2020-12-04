@@ -12,8 +12,8 @@
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
   background: linear-gradient(145deg, #dde2e6, #ffffff);
-  -webkit-box-shadow: 20px 20px 60px #d0d5d9,  -30px -30px 80px #ffffff;
-          box-shadow: 20px 20px 60px #d0d5d9,  -30px -30px 80px #ffffff;
+  -webkit-box-shadow: 20px 20px 60px #d0d5d9, -30px -30px 80px #ffffff;
+          box-shadow: 20px 20px 60px #d0d5d9, -30px -30px 80px #ffffff;
 }
 
 .dashboard-header .logo-name {
@@ -83,8 +83,8 @@
   margin-top: 10px;
   border-radius: 50px;
   background: linear-gradient(145deg, #dde2e6, #ffffff);
-  -webkit-box-shadow: 20px 20px 60px #d0d5d9,  -20px -20px 60px #ffffff;
-          box-shadow: 20px 20px 60px #d0d5d9,  -20px -20px 60px #ffffff;
+  -webkit-box-shadow: 20px 20px 60px #d0d5d9, -20px -20px 60px #ffffff;
+          box-shadow: 20px 20px 60px #d0d5d9, -20px -20px 60px #ffffff;
 }
 
 .dash-user-profile .form-section {
@@ -92,8 +92,8 @@
   padding: 5px;
   height: 650px;
   background: linear-gradient(145deg, #dde2e6, #ffffff);
-  -webkit-box-shadow: 20px 20px 60px #d0d5d9,  -20px -20px 60px #ffffff;
-          box-shadow: 20px 20px 60px #d0d5d9,  -20px -20px 60px #ffffff;
+  -webkit-box-shadow: 20px 20px 60px #d0d5d9, -20px -20px 60px #ffffff;
+          box-shadow: 20px 20px 60px #d0d5d9, -20px -20px 60px #ffffff;
   border-radius: 20px;
   margin-right: 20px;
   border: 2px solid red;
@@ -131,6 +131,7 @@
   background-color: red transparent;
   outline: none;
   padding: 10px;
+  outline: none;
 }
 
 .dash-user-profile .form-section #user-data-submit-btn {
@@ -181,8 +182,8 @@
   border-radius: 50%;
   border: 1px solid blue;
   background: #f5fbff;
-  -webkit-box-shadow: -20px 20px 60px #d0d5d9,  20px -20px 60px #ffffff;
-          box-shadow: -20px 20px 60px #d0d5d9,  20px -20px 60px #ffffff;
+  -webkit-box-shadow: -20px 20px 60px #d0d5d9, 20px -20px 60px #ffffff;
+          box-shadow: -20px 20px 60px #d0d5d9, 20px -20px 60px #ffffff;
   margin: 30px;
   padding: 5px;
 }
@@ -202,7 +203,8 @@
   font-weight: 800;
 }
 
-.dash-user-profile .card-section .user-contacts .user-email, .dash-user-profile .card-section .user-contacts .user-mobile {
+.dash-user-profile .card-section .user-contacts .user-email,
+.dash-user-profile .card-section .user-contacts .user-mobile {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -214,7 +216,8 @@
           align-items: center;
 }
 
-.dash-user-profile .card-section .user-contacts .user-email i, .dash-user-profile .card-section .user-contacts .user-mobile i {
+.dash-user-profile .card-section .user-contacts .user-email i,
+.dash-user-profile .card-section .user-contacts .user-mobile i {
   color: blue;
   margin-right: 10px;
   font-size: 30px;

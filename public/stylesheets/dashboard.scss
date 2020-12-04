@@ -1,242 +1,214 @@
-.dashboard-header{
-   
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px 15px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background: linear-gradient(145deg, #dde2e6, #ffffff);
+  box-shadow: 20px 20px 60px #d0d5d9, -30px -30px 80px #ffffff;
+
+  .logo-name {
+    font-size: 30px;
+    font-weight: 900;
+    color: red;
+  }
+
+  .nav-items {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-    padding: 10px 15px;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    background: linear-gradient(145deg, #dde2e6, #ffffff);
-    box-shadow:  20px 20px 60px #d0d5d9, 
-                -30px -30px 80px #ffffff;
+  }
+  .user {
+    font-size: 20px;
+    text-decoration: none;
+    color: blue;
+    margin-left: 20px;
+  }
 
-   .logo-name{
-       font-size: 30px;
-       font-weight: 900;
-       color:red;
-   }
+  .user-name {
+    font-size: 25px;
+    font-weight: 800;
+    color: darkblue;
+  }
 
-
-   .nav-items{
-       display: flex;
-       justify-content: space-between;
-       align-items: center;
-   }
-   .user{
-       font-size: 20px;
-       text-decoration: none;
-       color: blue;
-       margin-left: 20px;
-   }
-
-   .user-name{
-       font-size: 25px;
-       font-weight: 800;
-       color:darkblue;
-   }
-
-   .logout-btn{
-       color: red;
-       font-weight: 800;
-       font-size: 25px;
-   }
-
+  .logout-btn {
+    color: red;
+    font-weight: 800;
+    font-size: 25px;
+  }
 }
 
+.dash-user-profile {
+  margin-top: 30px;
+  display: grid;
+  align-items: center;
+  grid-gap: 10px;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
 
-.dash-user-profile{
+  .user-welcome {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 20px;
+  }
 
-    margin-top: 30px;
-    display: grid;
-    align-items: center;
-    grid-gap:10px;
-    justify-content: center;
-    grid-template-columns: repeat(3,1fr);
+  .user-card {
+    width: 600px;
+    height: 400px;
+    border: 2px solid red;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #dde2e6, #ffffff);
+    box-shadow: 20px 20px 60px #d0d5d9, -20px -20px 60px #ffffff;
+  }
 
-   .user-welcome{
+  .form-section {
+    background-color: white;
+    padding: 5px;
+    height: 650px;
+    background: linear-gradient(145deg, #dde2e6, #ffffff);
+    box-shadow: 20px 20px 60px #d0d5d9, -20px -20px 60px #ffffff;
+    border-radius: 20px;
+    margin-right: 20px;
+    border: 2px solid red;
+
+    .card-info {
       font-size: 20px;
-      font-weight: 700;
+      text-align: center;
+      color: blue;
       padding-bottom: 20px;
-      
-   }
-
-    .user-card{
-        width: 600px;
-        height: 400px;
-        border: 2px solid red;
-        padding: 5px;
-        border-radius: 10px;
-        margin-top: 10px;
-        border-radius: 50px;
-        background: linear-gradient(145deg, #dde2e6, #ffffff);
-        box-shadow:  20px 20px 60px #d0d5d9, 
-                    -20px -20px 60px #ffffff;
     }
 
+    .input-box {
+      display: flex;
+      flex-direction: column;
+      height: 80px;
+      width: 300px;
 
-    .form-section{
-        background-color: white;
-        padding: 5px;
-        height: 650px;
-        background: linear-gradient(145deg, #dde2e6, #ffffff);
-        box-shadow:  20px 20px 60px #d0d5d9, 
-                    -20px -20px 60px #ffffff;
-        border-radius: 20px;
-        margin-right: 20px;
-        border: 2px solid red;
+      label {
+        font-size: 20px;
+        color: blue;
+        font-weight: 700;
+        padding-bottom: 5px;
+      }
 
-        .card-info{
-            font-size: 20px;
-            text-align: center;
-            color: blue;
-            padding-bottom: 20px;
-        }
-
-        .input-box{
-            display: flex;
-            flex-direction: column;
-            height:80px;
-            width: 300px;
-
-            label{
-                font-size: 20px;
-                color:blue;
-                font-weight: 700;
-                padding-bottom: 5px;
-            }
-            
-            input{
-                width: 100%;
-                border-radius: 27px;
-                background-color:red transparent;
-                outline: none;
-                padding: 10px;
-            }
-            
-
-
-        }
-
-        #user-data-submit-btn{
-            padding: 10px 25px;
-            background-color: blue;
-            border:none;
-            border-radius: 27px;
-            font-size: 20px;
-            width: 300px;
-            cursor: pointer;
-            outline: none;
-        }
-
-        #user-data-submit-btn:hover{
-            background-color: red;
-        }
-
-
-     
+      input {
+        width: 100%;
+        border-radius: 27px;
+        background-color: red transparent;
+        outline: none;
+        padding: 10px;
+        outline: none;
+      }
     }
 
-
-     .card-section{
-
-
-           
-        .user-image-name{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            .user-name{
-                display: flex;
-                justify-content: space-between;
-                font-size: 25px;
-                color: red;
-                font-weight: 800;
-
-                .user-second-name{
-                    padding-left: 10px;
-                }
-            }
-        }
-        .user-image{
-            width: 100px;
-            border-radius: 50%;
-            border: 1px solid blue;
-            background: #f5fbff;
-            box-shadow:  -20px 20px 60px #d0d5d9, 
-                        20px -20px 60px #ffffff;
-            margin:30px;
-            padding: 5px;
-
-            .user-card-img{
-                width: 100%;
-                border-radius: 50%;
-               
-            }
-        }
-
-
-
-        .user-contacts{
-            display: flex;
-            font-size: 18px;
-            justify-content: space-around;
-            font-weight: 800;
-            
-
-            .user-email,.user-mobile{
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-
-                i{
-                    color: blue;
-                    margin-right: 10px;
-                    font-size: 30px;
-                }
-
-            }
-        }
-
-        .user-address-box{
-            display: flex;
-        
-            font-size: 16px;
-            margin-top: 20px;
-            font-weight: 700;
-            align-items: center;
-            
-
-            i{
-                color: green;
-                margin-right: 10px;
-                font-size: 30px;
-                margin-left: 20px;
-            }
-        }
-
-        .user-profession-box{
-            font-size: 35px;
-            font-weight: 900;
-            text-align: center;
-            color: red;
-            margin-top: 30px;
-            margin-bottom: 10px;
-
-        }
-
-        .user-social-media-links{
-            display: flex;
-            justify-content: space-around;
-            margin-top: 30px;
-
-            i{
-                font-size: 30px;
-                color:black;
-                cursor: pointer;
-
-                
-            }
-        }
+    #user-data-submit-btn {
+      padding: 10px 25px;
+      background-color: blue;
+      border: none;
+      border-radius: 27px;
+      font-size: 20px;
+      width: 300px;
+      cursor: pointer;
+      outline: none;
     }
+
+    #user-data-submit-btn:hover {
+      background-color: red;
+    }
+  }
+
+  .card-section {
+    .user-image-name {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .user-name {
+        display: flex;
+        justify-content: space-between;
+        font-size: 25px;
+        color: red;
+        font-weight: 800;
+
+        .user-second-name {
+          padding-left: 10px;
+        }
+      }
+    }
+    .user-image {
+      width: 100px;
+      border-radius: 50%;
+      border: 1px solid blue;
+      background: #f5fbff;
+      box-shadow: -20px 20px 60px #d0d5d9, 20px -20px 60px #ffffff;
+      margin: 30px;
+      padding: 5px;
+
+      .user-card-img {
+        width: 100%;
+        border-radius: 50%;
+      }
+    }
+
+    .user-contacts {
+      display: flex;
+      font-size: 18px;
+      justify-content: space-around;
+      font-weight: 800;
+
+      .user-email,
+      .user-mobile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        i {
+          color: blue;
+          margin-right: 10px;
+          font-size: 30px;
+        }
+      }
+    }
+
+    .user-address-box {
+      display: flex;
+
+      font-size: 16px;
+      margin-top: 20px;
+      font-weight: 700;
+      align-items: center;
+
+      i {
+        color: green;
+        margin-right: 10px;
+        font-size: 30px;
+        margin-left: 20px;
+      }
+    }
+
+    .user-profession-box {
+      font-size: 35px;
+      font-weight: 900;
+      text-align: center;
+      color: red;
+      margin-top: 30px;
+      margin-bottom: 10px;
+    }
+
+    .user-social-media-links {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 30px;
+
+      i {
+        font-size: 30px;
+        color: black;
+        cursor: pointer;
+      }
+    }
+  }
 }
