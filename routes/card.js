@@ -7,7 +7,7 @@ var upload = multer({ dest: "uploads/" });
 
 const Card = require("../models/cards");
 
-router.post("/details", upload.single("avatar"), (req, res) => {
+router.post("/", upload.single("avatar"), (req, res) => {
   Card.create(req.body, (err, data) => {
     res.send(data);
   });
