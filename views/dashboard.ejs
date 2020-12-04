@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dashboard</title>
+        <link rel="stylesheet" href="/stylesheets/main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    </head>
+    <body>
+        <header class="dashboard-header ">
+            <section class="logo-box">
+                <div class="logo">
+                    <h2 class="logo-name">GoDigital</h2>
+                </div>
+            </section>
+            <section class="dashboard-nav">
+                <nav class="nav">
+                    <ul class="nav-items">
+                        <li><a class="user user-name" href="#">User</a></li>
+                        <li><a class="user logout-btn" href="#">LogOut</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+        <main>
+            <section class="dash-user-profile container">
+                <section class="welcome-user">
+                       <h3 class="user-welcome">Welcome User</h3>
+                       <h4 class="user-welcome">1234567887</h4>
+                       <h4 class="user-welcome">name@gmail.com</h4>
+                </section>
+                <section class="form-section">
+                    <div class="card-info">
+                        <h3>Please fill this details to get your digital card</h3>
+                    </div>
+                    <form action="">
+                       <div class="input-box">
+                            <label for="first-name">First Name</label>
+                            <input type="text" id="first-name" name="first-name" placeholder="Enter your first name" required>
+                       </div>
+                       <div class="input-box">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" id="last-name" name="last-name" placeholder="Enter your last name" required>
+                       </div>
+                       <div class="input-box">
+                            <label for="user-email">Email</label>
+                            <input type="email" id="user-email" name="user-email" placeholder="Enter your email" required>
+                       </div>
+                       <div class="input-box">
+                            <label for="user-mobile">Mobile</label>
+                            <input type="number" id="user-mobile" name="user-mobile" placeholder="Enter your mobile number" required>
+                       </div>
+                       <div class="input-box">
+                            <label for="user-address">Address</label>
+                            <input type="text" id="user-address" name="user-address" placeholder="Enter your address" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="user-profession">Profession</label>
+                            <input type="text" id="user-profession" name="user-profession" placeholder="Enter your profession" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="user-photo">Image</label>
+                            <input type="file" name="user-image" id="user-photo">
+                        </div>
+                        <div class="input-box">
+                            <button type="submit" id="user-data-submit-btn">Generate Card</button>
+                        </div>
+                    </form>
+                </section>
+                <section class="card-section">
+                    <div class="user-card">
+                        <div class="user-image-name">
+                           <div class="user-image">
+                              <img class="user-card-img" src="/images/user.png" alt="user image">
+                           </div>
+                           <div class="user-name">
+                              <h3 class="user-first-name">Johnson</h3>
+                              <h3 class="user-second-name">Cristoper</h3>
+                            </div>
+                        </div>
+                        <div class="user-contacts">
+                            <div class="user-mobile">
+                                <i class="fas fa-mobile"></i>
+                                <h2>14578822555</h2>
+                            </div>
+                            <div class="user-email">
+                                <i class="fas fa-envelope"></i>
+                                <h2>name@gmail.com</h2>
+                            </div>
+                        </div>
+                        <div class="user-profession-box">
+                            <h2 class="user-profession">Student</h2>
+                        </div>
+                        <div class="user-address-box">
+                            <i class="fas fa-address-card"></i>
+                            <address class="user-address">(619) 698-01813281 College Pl #314Lemon Grove, California(CA), 91945</address>
+                        </div>
+                        <div class="user-social-media-links">
+                            <div class="user-facebook-link">
+                                <a class="user-facebook" href="#"><i class="fab fa-facebook"></i></a>
+                            </div>
+                            <div class="user-twitter-link">
+                                <a class="user-twitter" href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                            <div class="user-linkedIn-link">
+                                <a class="user-linkedin" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                            <div class="user-instagram-link">
+                           <a class="user-instagram" href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </main>
+    </body>
+</html>
