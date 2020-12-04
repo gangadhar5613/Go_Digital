@@ -43,6 +43,9 @@ let Card = mongoose.model(
     linkedin: {
       type: String,
     },
+    createdBy: {
+      type: mongoose.Schema.Types.ObjectId,
+    },
   })
 );
 

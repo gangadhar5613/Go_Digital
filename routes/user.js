@@ -4,7 +4,7 @@ const User = require("../models/users");
 
 router.post("/", (req, res) => {
   User.create(req.body, (err, user) => {
-    res.render("userDas");
+    res.send(user);
   });
 });
 

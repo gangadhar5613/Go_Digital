@@ -28,7 +28,8 @@ app.set("views", path.join(__dirname, "views"));
 app.use("/", require("./routes/index"));
 
 app.use("/card", require("./routes/card"));
-app.use('/login', require('./routes/login'));
+
+app.use("/user", require("./routes/user"));
 
 //error page
 
