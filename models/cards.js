@@ -24,7 +24,6 @@ let Card = mongoose.model(
       minlength: 10,
       maxlength: 12,
       require: true,
-      unique: true,
     },
     address: {
       type: String,
